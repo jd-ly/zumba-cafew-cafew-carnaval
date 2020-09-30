@@ -36,3 +36,5 @@ A video game with three.js
 - As an enemy, I can change direction before hitting a wall
 - As an enemy, I can have a family (have multiple enemy)
 - As an enemy, I can shoot
+
+Note: 100/100

@@ -82,7 +82,6 @@ Player.prototype.move = function () {
     
     light1.position.x = this.position.x;
     light1.position.y = this.position.y;
-   //light1.position.z = this.graphic.position.z + 500;
 };
 
 Player.prototype.autoEnemy = function (delta) {

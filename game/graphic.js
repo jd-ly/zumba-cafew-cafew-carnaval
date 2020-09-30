@@ -33,8 +33,8 @@ function init()
     scene.add(enemy2.graphic);
     enemy3 = new Player("enemy3", 0x32a883, new THREE.Vector2(100, 40), 0);
     scene.add(enemy3.graphic);
-    follower = new Player("follower", 0x32a883, new THREE.Vector2(-100, -40), 0);
-    enemies = [enemy1, enemy2, enemy3, follower];
+    //follower = new Player("follower", 0x32a883, new THREE.Vector2(-100, -40), 0);
+    enemies = [enemy1, enemy2, enemy3];
 
 
     light1 = new Light("sun", 0xffffff, "0,0,340");
